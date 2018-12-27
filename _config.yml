@@ -1,6 +1,6 @@
 site_header: Školení Ansible
 site_by_email: ondrej@ondrejsika.com
-logo: ansible-icon.png
+logo: /assets/ansible-icon.png
 program: Ansible
 about_program: Gitlab je free a opensource Git server, který kromě Git repozitaru podporuje Continues Integration a umí například
   Docker Registry. V Gitlabu můžete vést agenu ohledně vývoje, trekovat issues, psát dokumentaci a wiki. Gitlab je
