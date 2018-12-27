@@ -13,7 +13,7 @@ about_lector: Jmenuji se __Ondřej Šika__, vyvíjím software pro __Slush Pool_
   používám jak ve vývoji, tak i
   na produkci a nedovedu si již bez něj práci představit.
 actual_courses: Pokud máte zájem o skoleni u vas ve firme, <a href="https://ondrej-sika.cz/skoleni/docker/poptavka/"
-  class="btn btn-large btn-outline-danger">nezávazně jej poptejte</a>
+  class="btn btn-large mybutton-outline">nezávazně jej poptejte</a>
   nebo mi napište email na<a href="ondrej@ondrejsika.com">ondrej@ondrejsika.com</a>
 learning_goals: <li>..</li><li>..</li><li>..</li><li>..</li><li>..</li>
 course_description: |
