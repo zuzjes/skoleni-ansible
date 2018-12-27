@@ -6,67 +6,29 @@ title: Ansible školení
 <h3>Aktualně vypsané termíny</h3>,
 
 {% include terminy.html %}
-<p>Pokud máte zájem o skoleni u vas ve firme, <a href="https://ondrej-sika.cz/skoleni/docker/poptavka/"
-                                                 class="btn btn-large btn-outline-danger">nezávazně jej poptejte</a>
-    nebo mi napište email na
-    <ondrej
-            @ondrejsika.com>
+<p>{{ site.actual_courses }}
 </p>
 <hr class="line">
 
-<h3>Co je Ansible</h3>
-<p>Gitlab je free a opensource Git server, který kromě Git repozitaru podporuje Continues Integration a umí například
-    Docker Registry. V Gitlabu můžete vést agenu ohledně vývoje, trekovat issues, psát dokumentaci a wiki. Gitlab je
-    také silným nástrojem na code review a ideálním nástrojem na správu vzdálených repozitářů u Vás ve firmě a mimo
-    ni.</p>
+<h3>Co je {{ site.program }}</h3>
+<p>{{ site.about_program}}</p>
 <hr class="line">
 
 <h3>O mně</h3>
-
-<p>Jmenuji se __Ondřej Šika__, vyvíjím software pro __Slush Pool__ a školím. Školím převážně Docker,
-    [GIT](https://ondrej-sika.cz/skoleni/git/), [Gitlab](https://ondrej-sika.cz/skoleni/gitlab/) a [Continues
-    Integraqtion](https://ondrej-sika.cz/skoleni/continues-integration/). Další školení naleznete na mém webu
-    [ondrej-sika.cz](https://ondrej-sika.cz).</p>
-
-<p>Všechny kurzy vedu osobně. S Dockerem mám více než dva roky zkušeností v rámci komerčního vývoje softwaru. Docker
-    používám jak ve vývoji, tak i
-    na produkci a nedovedu si již bez něj práci představit.</p>
-
+<p>{{ site.about_lector | markdownify }}</p>
 <hr class="line">
 
 <h3>Co Vás naučím</h3>
 
-<ul>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-    <li>4</li>
-    <li>5</li>
-</ul>
-
+<ul>{{ site.learning_goals }}</ul>
 <hr class="line">
 
 <h3>Jak školení probíhá</h3>
-<p>Školení probíhá formou workshopu, vše si prakticky vyzkoušíte. Věřím, že praktické zkušenosti jsou to nejlepší, co si
-    můžete z každého školení odnést. Školení probíhají buď v mé kanceláři, při velkém počtu zájemců ve školící
-    místnosti. Při firemním školení samozřejmě mohu přijet k Vám do kanceláře.<br>
-    <br>
-    Všechny materiály z předchozích školení jsou volně k dispozici
-    [github.com/skoleni-kubernetes](https://github.com/skoleni-kuberenetes) a na mém
-    [Speakerdeck](https://speakerdeck.com/ondrejsika).<br>
-    <br>
-    Po absolvování školení obdržíte veřejně auditovatelný certifikát o účasti.</p>
-
+<p>{{ site.course_description | markdownify }}</p>
 <hr class="line">
 
 <h3>Cena</h3>
-<p>Cena jednodenniho kurzu Ansible je # ### CZK za osobu. Pokud mate zajem o firemni skoleni, cena je ## ### CZK za
-    skolici den.
-    <strong>Studenti</strong>, <strong>univerzity</strong> a <strong>neziskové organizace</strong> mají <strong>50%
-        slevu</strong>.<br>
-
-    Lze domluvit například skupinové slevy, ceny se za určitých okolností dají určitě nějak zvýhodnit. V případě zájmu
-    nebo dotazů mě neváhejte kontaktovat.</p>
+<p>{{ site.price | markdownify }}</p>
 
 <hr class="line">
 
@@ -75,26 +37,14 @@ title: Ansible školení
                                                                 class="btn btn-outline-danger">nezavazne poptat skoleni
     gitlabu</a>.</p>
 
-
+<hr>
 <h3>Kontakt</h3>
 
-<h3>Ondrej Sika</h3>
+<h4>Ondrej Sika</h4>
 
-<a href="mailto:ondrej@ondrejsika.com">ondrej@ondrejsika.com></a>
-<a href="https://ondrej-sika.cz">https://ondrej-sika.cz</a>
+<a href="mailto:ondrej@ondrejsika.com">ondrej@ondrejsika.com</a><br>
+<a href="https://ondrej-sika.cz">https://ondrej-sika.cz</a><br>
 <a href="tel:+420773452376">+420 773 452 376</a>
-
-<h3>Novinky</h3>
-
-<p>Pokud máte zájem o zasílání novinek ohledně kurzů, můžete se přihlásit k odběru mého <a
-        href="http://sika.link/newsletter">newsletteru)</a>.
-
-    Nebo můžete sledovat muj <a href="https://facebook.com/skoleniio">Facebook</a>) a <a
-            href="https://twitter.com/skoleniio">Twitter</a>.</p>
-
-
-<h3>Veřejné přednášky</h3>
-
 <center style="margin: 30px 0 40px"><a href="https://ondrej-sika.cz/skoleni/docker/poptavka/"
                                        class="btn btn-lg btn-outline-danger">Nezavazne poptat skoleni Ansible</a>
 </center>

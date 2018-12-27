@@ -1,0 +1,38 @@
+site_header: Školení Ansible
+site_by_email: ondrej@ondrejsika.com
+logo: ansible-icon.png
+program: Ansible
+about_program: Gitlab je free a opensource Git server, který kromě Git repozitaru podporuje Continues Integration a umí například
+  Docker Registry. V Gitlabu můžete vést agenu ohledně vývoje, trekovat issues, psát dokumentaci a wiki. Gitlab je
+  také silným nástrojem na code review a ideálním nástrojem na správu vzdálených repozitářů u Vás ve firmě a mimo
+  ni.
+about_lector: Jmenuji se __Ondřej Šika__, vyvíjím software pro __Slush Pool__ a školím. Školím převážně Docker,
+  [GIT](https://ondrej-sika.cz/skoleni/git/), [Gitlab](https://ondrej-sika.cz/skoleni/gitlab/) a [Continues
+  Integraqtion](https://ondrej-sika.cz/skoleni/continues-integration/). Další školení naleznete na mém webu
+  [ondrej-sika.cz](https://ondrej-sika.cz). Všechny kurzy vedu osobně. S Dockerem mám více než dva roky zkušeností v rámci komerčního vývoje softwaru. Docker
+  používám jak ve vývoji, tak i
+  na produkci a nedovedu si již bez něj práci představit.
+actual_courses: Pokud máte zájem o skoleni u vas ve firme, <a href="https://ondrej-sika.cz/skoleni/docker/poptavka/"
+  class="btn btn-large btn-outline-danger">nezávazně jej poptejte</a>
+  nebo mi napište email na<a href="ondrej@ondrejsika.com">ondrej@ondrejsika.com</a>
+learning_goals: <li>..</li><li>..</li><li>..</li><li>..</li><li>..</li>
+course_description: |
+  Školení probíhá formou workshopu, vše si prakticky vyzkoušíte. Věřím, že praktické zkušenosti jsou to nejlepší, co si
+  můžete z každého školení odnést. Školení probíhají buď v mé kanceláři, při velkém počtu zájemců ve školící
+  místnosti. Při firemním školení samozřejmě mohu přijet k Vám do kanceláře.
+
+  Všechny materiály z předchozích školení jsou volně k dispozici
+  [github.com/skoleni-kubernetes](https://github.com/skoleni-kuberenetes) a na mém
+  [Speakerdeck](https://speakerdeck.com/ondrejsika).
+
+  Po absolvování školení obdržíte veřejně auditovatelný certifikát o účasti.
+price: |
+  Cena jednodenniho kurzu Ansible je # ### CZK za osobu. Pokud mate zajem o firemni skoleni, cena je ## ### CZK za
+  skolici den.
+  __Studenti__, __univerzity__ a __neziskové organizace__ mají __50% slevu__.
+
+  Lze domluvit například skupinové slevy, ceny se za určitých okolností dají určitě nějak zvýhodnit. V případě zájmu
+  nebo dotazů mě neváhejte kontaktovat.
+
+google_analytics: UA-39461955-7
+leady: 4HkuP9U3lPoojyKu

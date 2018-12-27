@@ -28,48 +28,39 @@
 <body>
 
 <div class="container-fluid header-container">
-    <div class="header" style="margin-top: 0px;">
-
+    <div class="header mt-0">
         <div class="container">
-
             <div class="row">
                 <div class="col-md-9 ">
                     <div class="header-inner">
-
                         <span class="site-header">
-                            <a href="/"><h1 style="margin-bottom: 0;">Školení Ansible</h1></a>
+                            <a href="/"><h1 class="mb-0">{{ site.site_header }}</h1></a>
                         </span>
-                        <p style="color: white">by <a href="https://ondrej-sika.cz" style="color:white"><b>Ondrej
+                        <p>by <a href="https://ondrej-sika.cz"><b>Ondrej
                             Sika</b></a> | <a
-                                href="https://ondrej-sika.cz/skoleniio" style="color: white">Skoleni.io</a></p>
+                                href="https://ondrej-sika.cz/skoleniio">Skoleni.io</a></p>
                         <a href="#" class="btn btn-danger mb-2">Nezávazně poptat školení</a>
-
                         <a href="#kontakt" class="btn btn-large btn-danger mb-2">Kontaktovat</a>
                     </div>
                 </div>
-
                 <div class="col-md-3 ">
-                    <img src="ansible-icon.png" class="img-responsive d-none d-lg-block" style="height: 13em">
+                    <img src="{{ site.logo }}" class="img-responsive d-none d-lg-block">
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-
             {{ content }}
-
         </div>
     </div>
 </div>
 
-{% include analytics.html code='UA-39461955-7' %}
-{% include cookie_law.html %}
-{% include leady.html code='4HkuP9U3lPoojyKu' %}
+{% include analytics.html code=site.google_analytics %}
+{% include leady.html code=site.leady %}
+
 <!-- Footer -->
 <div class="container-fluid footer">
     <div class="container">
@@ -82,13 +73,11 @@
                     <a href="https://ondrej-sika.cz">ondrej-sika.cz</a><br>
                     <a href="tel:+420773452376">+420 773 452 376</a>
                 </div>
-
                 <div class="col-md-4 col-sm-10">
                     <h4>Nejoblíbenější kurzy</h4>
                     <a href="#" class="git-footer">Git</a><br>
                     <a href="#">Docker</a><br>
                 </div>
-
                 <div class="col-md-4 col-sm-10">
                     #
                 </div>
